@@ -1,0 +1,78 @@
+*{
+    margin: 3px;
+    padding: 3px;
+}
+body{
+    background-color: rgb(198, 201, 201);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: azure;
+    width: 96%;
+    top: 0;
+  
+   
+}
+
+#navbar a{
+    color:rosybrown;
+    text-decoration: solid;
+    font-size: medium;
+    justify-content: space-around;
+    margin: 35px;
+    
+
+}
+
+#navbar a:hover{
+    color: blue;
+    
+}
+
+ button{
+    background-color: rosybrown;
+    border-radius: 4px;
+
+}
+
+#landingpage{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin: auto;
+    
+    
+}
+#landingpage .column{
+    text-decoration: solid;
+    width: auto;
+    height: auto;
+    padding: 110px;
+    margin: 80px;
+
+
+}
+    
+
+
+#landingpage .image{
+    align-items: center;
+    display: flex;
+    margin: 0pc;
+
+
+}
+
+#footer{
+    text-align: center;
+    
+}
+
+
+
+
