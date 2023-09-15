@@ -43,30 +43,30 @@ body{
 #landingpage{
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    margin: auto;
+    width: 70vw;
+    margin: 160px;
+    padding: 20px;
+    font-size: large;
     
     
 }
 #landingpage .column{
-    text-decoration: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: auto;
     height: auto;
-    padding: 110px;
-    margin: 80px;
-
+    padding: 20px;
+    margin: 15px;
 
 }
     
 
 
-#landingpage .image{
-    align-items: center;
-    display: flex;
-    margin: 0pc;
+
+   
 
 
-}
 
 #footer{
     text-align: center;
