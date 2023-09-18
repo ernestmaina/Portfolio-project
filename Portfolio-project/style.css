@@ -1,0 +1,178 @@
+*{
+    margin: 3px;
+    padding: 3px;
+}
+body{
+    background-color: rgb(150, 153, 153);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: rgb(11, 12, 12);
+    width: 96%;
+    top: 0;
+    color:rosybrown;
+    cursor: pointer;
+   
+}
+
+#navbar a{
+    color:rosybrown;
+    text-decoration: solid;
+    font-size: medium;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+#navbar a:hover{
+    color: white;
+    
+}
+
+
+#landingpage{
+    display: flex;
+    flex-direction: row;
+    margin: 160px;
+    padding: 20px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+#landingpage .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(150, 153, 153);
+
+}
+#landingpage .image{
+    width: 5%;
+}
+.container .box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: gray;
+    align-items: center;
+    color:rgb(7, 7, 7);
+    width: 30vw;
+   
+}
+
+ .image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image2{
+    display: flex;
+    justify-content: space-between;
+}
+
+ h3{
+    
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+ .heading{
+    text-align: center;
+}
+
+
+hr{
+    margin: auto;
+}
+
+
+
+footer{
+    background-color: rgb(6, 4, 2);
+    color: rosybrown;
+    padding: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+
+footer #row1{
+    text-align: center;
+    margin-bottom:60px ;
+    line-height: 33px;
+     
+}
+
+footer #row2{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
